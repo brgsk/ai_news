@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ai-news"
+version = "0.1.0"
+description = "Just cover the goddamn AI news, Marketing!"
+authors = ["bartosz roguski <bartosz.k.roguski@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+transformers = "^4.40.2"
+feedparser = "^6.0.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
